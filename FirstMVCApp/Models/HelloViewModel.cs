@@ -10,5 +10,7 @@ namespace FirstMVCApp.Models
     {
         public string Name { get; set; }
         public string GreetingSuffix { get; set; }
+
+        public IEnumerable<string> enumNames { get; set; }
     }
 }
